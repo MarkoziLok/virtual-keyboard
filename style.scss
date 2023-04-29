@@ -7,8 +7,16 @@
     padding-top: 10%;
 }
 
-.input-text{
+.line{
     width: 830px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.input-text{
+    width: 820px;
     height: 100px;
     margin-bottom: 10px;
 }
@@ -18,11 +26,21 @@
     height: 50px;
     border: solid .5px grey;
     border-radius: 5px;
+    transition: .3s;
+    &:hover{
+        border: solid .5px rgb(54, 54, 54);
+        cursor: pointer;
+    }
 }
 
 .dark-btn{
     border: solid .5px grey;
     border-radius: 5px;
+    transition: .3s;
+    &:hover{
+        border: solid .5px rgb(54, 54, 54);
+        cursor: pointer;
+    }
 }
 
 .backspace-btn{
@@ -41,12 +59,12 @@
 }
 
 .caps-btn{
-    width: 95px;
+    width: 90px;
     height: 50px;
 }
 
 .ent-btn{
-    width: 89px;
+    width: 94px;
     height: 50px;
 }
 
